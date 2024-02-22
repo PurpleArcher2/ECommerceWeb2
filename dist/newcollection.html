@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body class="bg-black text-white animate-fade-up animate-duration-1000">
+    <head>
+      <nav
+        class="bg-black flex justify-center gap-10 after:content-[''] after:absolute after:left-32 after:right-0 after:top-32 after:h-0.5 after:w-5/6 after:bg-white"
+      >
+        <div class="max-w-40">
+          <a href="index.html"><img src="/imgs/saxonLogo.png" alt="Logo" /></a>
+        </div>
+
+        <ul class="flex gap-10">
+          <li class="pr-8 self-center">
+            <a
+              href="./newcollection.html"
+              class="text-white relative after:content-[''] after:absolute after:w-full after:h-0.5 after:bottom-[-2px] after:left-0 after:bg-white after:transition-bg"
+              >New Collection</a
+            >
+          </li>
+          <li class="pr-8 self-center">
+            <a href="./men.html" class="text-white hover:underline">Men</a>
+          </li>
+          <li class="pr-8 self-center">
+            <a href="./woman.html" class="text-white hover:underline">Women</a>
+          </li>
+          <li class="pr-8 self-center">
+            <a href="./about.html" class="text-white hover:underline">About</a>
+          </li>
+          <li class="pr-8 self-center">
+            <a href="./contact.html" class="text-white hover:underline"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <div class="self-center">
+          <img
+            src="/imgs/shopping-cart.png"
+            class="max-w-6 cursor-pointer"
+            alt="shopping-cart"
+          />
+        </div>
+      </nav>
+    </head>
+
+    <section class="flex flex-wrap justify-center gap-8 px-40 pt-20">
+      <!-- Card 1 -->
+      <div
+        class="max-w-xs bg-white shadow-md rounded-md overflow-hidden mb-8 hover:scale-110 duration-100 cursor-pointer"
+      >
+        <div class="p-4">
+          <img src="/clothingImages/0oq7qp8j.png" alt="" />
+          <h3 class="text-lg font-semibold mb-2 text-gray-600">Cloth 1</h3>
+          <p class="text-gray-600 mb-2">Card description goes here.</p>
+          <div class="text-gray-600 flex gap-6">
+            <button
+              id="deductCard1"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              -
+            </button>
+            <p id="resultCard1">0</p>
+            <button
+              id="addCard1"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              +
+            </button>
+
+            <button
+              class="bg-black text-white px-2 rounded-full active:bg-white active:text-black"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div
+        class="max-w-xs bg-white shadow-md rounded-md overflow-hidden mb-8 hover:scale-110 duration-100 cursor-pointer"
+      >
+        <div class="p-4">
+          <img src="/clothingImages/2u53jibq.png" alt="" />
+          <h3 class="text-lg font-semibold mb-2 text-gray-600">Cloth 2</h3>
+          <p class="text-gray-600 mb-2">Card description goes here.</p>
+          <div class="text-gray-600 flex gap-6">
+            <button
+              id="deductCard2"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              -
+            </button>
+            <p id="resultCard2">0</p>
+            <button
+              id="addCard2"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              +
+            </button>
+
+            <button
+              class="bg-black text-white px-2 rounded-full active:bg-white active:text-black"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div
+        class="max-w-xs bg-white shadow-md rounded-md overflow-hidden mb-8 hover:scale-110 duration-100 cursor-pointer"
+      >
+        <div class="p-4">
+          <img src="/clothingImages/8vid4g0o.png" alt="" />
+          <h3 class="text-lg font-semibold mb-2 text-gray-600">Cloth 3</h3>
+          <p class="text-gray-600 mb-2">Card description goes here.</p>
+
+          <div class="text-gray-600 flex gap-6">
+            <button
+              id="deductCard3"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              -
+            </button>
+            <p id="resultCard3">0</p>
+            <button
+              id="addCard3"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              +
+            </button>
+
+            <button
+              class="bg-black text-white px-2 rounded-full active:bg-white active:text-black"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div
+        class="max-w-xs bg-white shadow-md rounded-md overflow-hidden mb-8 hover:scale-110 duration-100 cursor-pointer"
+      >
+        <div class="p-4">
+          <img src="/clothingImages/2u53jibq.png" alt="" />
+          <h3 class="text-lg font-semibold mb-2 text-gray-600">Cloth 4</h3>
+          <p class="text-gray-600 mb-2">Card description goes here.</p>
+          <div class="text-gray-600 flex gap-6">
+            <button
+              id="deductCard4"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              -
+            </button>
+            <p id="resultCard4">0</p>
+            <button
+              id="addCard4"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              +
+            </button>
+
+            <button
+              class="bg-black text-white px-2 rounded-full active:bg-white active:text-black"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div
+        class="max-w-xs bg-white shadow-md rounded-md overflow-hidden mb-8 hover:scale-110 duration-100 cursor-pointer"
+      >
+        <div class="p-4">
+          <img src="/clothingImages/eoneps42.png" alt="" />
+          <h3 class="text-lg font-semibold mb-2 text-gray-600">Cloth 5</h3>
+          <p class="text-gray-600 mb-2">Card description goes here.</p>
+          <div class="text-gray-600 flex gap-6">
+            <button
+              id="deductCard5"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              -
+            </button>
+            <p id="resultCard5">0</p>
+            <button
+              id="addCard5"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              +
+            </button>
+
+            <button
+              class="bg-black text-white px-2 rounded-full active:bg-white active:text-black"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div
+        class="max-w-xs bg-white shadow-md rounded-md overflow-hidden mb-8 hover:scale-110 duration-100 cursor-pointer"
+      >
+        <div class="p-4">
+          <img src="/clothingImages/0oq7qp8j.png" alt="" />
+          <h3 class="text-lg font-semibold mb-2 text-gray-600">Cloth 6</h3>
+          <p class="text-gray-600 mb-2">Card description goes here.</p>
+          <div class="text-gray-600 flex gap-6">
+            <button
+              id="deductCard6"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              -
+            </button>
+            <p id="resultCard6">0</p>
+            <button
+              id="addCard6"
+              class="bg-black rounded-full h-6 w-6 text-center text-white font-bold hover:scale-150 duration-100 active:bg-white active:text-black"
+            >
+              +
+            </button>
+
+            <button
+              class="bg-black text-white px-2 rounded-full active:bg-white active:text-black"
+            >
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>
